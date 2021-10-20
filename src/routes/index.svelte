@@ -40,7 +40,9 @@
 
 <section id="2" class="bio">
     <h1 class="title">Bio</h1>
-    <div class="paragraph"><p>I'm baby taxidermy ennui intelligentsia, affogato green juice keytar pork belly vegan farm-to-table.  PBR&amp;B skateboard pop-up hell of artisan poke, ennui subway tile tilde yr four dollar toast microdosing hammock.  Palo santo enamel pin disrupt lumbersexual butcher unicorn stumptown messenger bag everyday carry tbh authentic.  Drinking vinegar cloud bread live-edge godard cardigan, tattooed yr PBR&amp;B pug thundercats pabst.</p><p>Chillwave sustainable before they sold out tumblr.  Offal air plant raw denim coloring book you probably haven't heard of them slow-carb glossier PBR&amp;B williamsburg intelligentsia chicharrones art party humblebrag.  Blue bottle vinyl knausgaard sriracha affogato occupy pop-up vice coloring book.  Meditation pour-over tattooed cardigan, taiyaki iPhone pok pok viral cray listicle disrupt direct trade pop-up edison bulb subway tile.  Kitsch pabst williamsburg ethical asymmetrical paleo vexillologist chambray.</p></div>
+    <div class="paragraph">
+        <p>Not much to say about me, I am college student Just playing around with diferent things, this is my personal website i plan to use to display projects that i am working on, this is the first large project I have done and plan to work on much more so stay tuned to see what i get up to</p>
+    </div>
 </section>
 
 <section id="3" class="contact">
@@ -128,7 +130,6 @@
 .bio{
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
     width: 100%;
     height: auto;
     align-items: center;
@@ -140,6 +141,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 5rem;
 }
 .paragraph p {
     width: clamp(45ch, 50%, 75ch);
