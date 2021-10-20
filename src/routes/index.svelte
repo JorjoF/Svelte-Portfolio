@@ -1,4 +1,3 @@
-
 <script>
     import { goto } from '$app/navigation';
     import Modal from './modal.svelte';
